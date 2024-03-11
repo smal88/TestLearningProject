@@ -1,7 +1,9 @@
 package com.learning.assignment.parentheses;
 
 import java.util.Stack;
-
+ /**
+     * parentheses checker
+     */
 public class ParenthesesChecker {
 
     public static boolean isValidParentheses(String s) {
@@ -29,7 +31,7 @@ public class ParenthesesChecker {
         String testString2 = "((())";
 
         System.out.println("Test String 1 is valid: " + isValidParentheses(testString1));
-        System.out.println("Test String 4 is valid: " + isValidParentheses(testString2));
+        System.out.println("Test String 2 is valid: " + isValidParentheses(testString2));
 
     }
 }
